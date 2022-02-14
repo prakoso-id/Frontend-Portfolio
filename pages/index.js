@@ -1,9 +1,9 @@
-import Hero from '../components/hero/index.js'
-import Header from '../components/header2/index.js'
-import Skills from '../components/skills/index.js'
-import Media from '../components/media/index.js'
+import Hero from '../components/hero'
+import Header from '../components/header2'
+import Skills from '../components/skills'
+import Media from '../components/media'
 
-import Partikel from '../components/particles-back.js'
+import Partikel from '../components/particles-back'
 
 
 export default function Home() {
