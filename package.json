@@ -1,5 +1,8 @@
 {
   "name": "portofolio",
+  "engines": {
+    "node": "16.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
