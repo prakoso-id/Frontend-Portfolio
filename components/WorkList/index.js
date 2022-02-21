@@ -13,7 +13,10 @@ function  WorkList (props){
                                 Works
                                 </p>
                                 <div className=" grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
-                                    
+                                {/* <WorkItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
+                                    A Markdown note-taking app with 100+ plugins, cross-platform and
+                                    encrypted data sync support
+                                </WorkItem> */}
                                     
                                     {data.length > 0 ? data.map((item,index) => {
                                         return(
